@@ -1,3 +1,5 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -21,6 +23,7 @@ public class TwoSum {
 
     public static void main(String[] args) {
         TwoSum ts = new TwoSum();
-        ts.twoSum(new int[] {3,2,4,1}, 6);
+        int[] ans = ts.twoSum(new int[] {3,2,4,1}, 6);
+        System.out.println(Arrays.toString(ans));
     }
 }
